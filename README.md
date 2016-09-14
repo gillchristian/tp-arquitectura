@@ -1,4 +1,8 @@
-# Arquitectura de Computadoras - UTN - FRSF - Trabajo Práctico 2016
+# Arquitectura de Computadoras - Trabajo Práctico 2016
+
+## UTN - FRSF
+
+### Integrantes
 
 - Rios, Leandro
 - Zonta, Esteban
