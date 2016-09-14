@@ -59,41 +59,44 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(150,100)" to="(470,100)"/>
-    <wire from="(70,260)" to="(70,330)"/>
+    <wire from="(70,300)" to="(320,300)"/>
     <wire from="(10,50)" to="(10,190)"/>
     <wire from="(10,50)" to="(60,50)"/>
     <wire from="(500,120)" to="(620,120)"/>
-    <wire from="(70,150)" to="(120,150)"/>
+    <wire from="(320,170)" to="(620,170)"/>
     <wire from="(530,160)" to="(530,250)"/>
-    <wire from="(70,150)" to="(70,170)"/>
-    <wire from="(70,170)" to="(70,190)"/>
     <wire from="(500,120)" to="(500,150)"/>
-    <wire from="(70,170)" to="(620,170)"/>
+    <wire from="(320,300)" to="(320,330)"/>
+    <wire from="(320,150)" to="(360,150)"/>
+    <wire from="(320,330)" to="(360,330)"/>
     <wire from="(60,20)" to="(60,50)"/>
+    <wire from="(70,150)" to="(70,190)"/>
+    <wire from="(320,260)" to="(320,300)"/>
     <wire from="(530,320)" to="(620,320)"/>
     <wire from="(530,40)" to="(620,40)"/>
     <wire from="(530,100)" to="(620,100)"/>
     <wire from="(530,160)" to="(620,160)"/>
     <wire from="(10,190)" to="(20,190)"/>
+    <wire from="(320,100)" to="(320,150)"/>
     <wire from="(670,260)" to="(810,260)"/>
-    <wire from="(70,190)" to="(70,260)"/>
+    <wire from="(70,150)" to="(320,150)"/>
     <wire from="(530,250)" to="(530,320)"/>
-    <wire from="(70,100)" to="(120,100)"/>
-    <wire from="(70,260)" to="(620,260)"/>
+    <wire from="(320,150)" to="(320,170)"/>
+    <wire from="(320,260)" to="(620,260)"/>
+    <wire from="(390,150)" to="(500,150)"/>
     <wire from="(530,20)" to="(530,40)"/>
-    <wire from="(150,150)" to="(500,150)"/>
+    <wire from="(320,100)" to="(360,100)"/>
+    <wire from="(390,330)" to="(620,330)"/>
     <wire from="(60,20)" to="(530,20)"/>
     <wire from="(40,20)" to="(60,20)"/>
     <wire from="(50,190)" to="(70,190)"/>
     <wire from="(470,60)" to="(620,60)"/>
     <wire from="(530,250)" to="(620,250)"/>
     <wire from="(470,60)" to="(470,100)"/>
-    <wire from="(70,100)" to="(70,150)"/>
+    <wire from="(70,190)" to="(70,300)"/>
     <wire from="(530,40)" to="(530,100)"/>
     <wire from="(530,100)" to="(530,160)"/>
-    <wire from="(70,330)" to="(140,330)"/>
-    <wire from="(170,330)" to="(620,330)"/>
+    <wire from="(390,100)" to="(470,100)"/>
     <wire from="(670,50)" to="(810,50)"/>
     <wire from="(670,110)" to="(810,110)"/>
     <wire from="(670,170)" to="(810,170)"/>
@@ -101,6 +104,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(896,340)" name="Text">
       <a name="text" val="VERDE PEATON"/>
     </comp>
+    <comp lib="1" loc="(390,100)" name="NOT Gate"/>
     <comp lib="6" loc="(889,264)" name="Text">
       <a name="text" val="ROJO PEATON"/>
     </comp>
@@ -116,11 +120,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="offcolor" val="#000000"/>
     </comp>
     <comp lib="1" loc="(670,110)" name="OR Gate"/>
-    <comp lib="1" loc="(150,150)" name="NOT Gate"/>
     <comp lib="6" loc="(883,116)" name="Text">
       <a name="text" val="AMARILLO AUTO"/>
     </comp>
-    <comp lib="1" loc="(150,100)" name="NOT Gate"/>
+    <comp lib="1" loc="(390,150)" name="NOT Gate"/>
     <comp lib="5" loc="(810,330)" name="LED">
       <a name="color" val="#0f6300"/>
       <a name="offcolor" val="#000000"/>
@@ -130,7 +133,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(670,50)" name="OR Gate"/>
     <comp lib="1" loc="(50,190)" name="NOT Gate"/>
-    <comp lib="1" loc="(170,330)" name="NOT Gate"/>
+    <comp lib="1" loc="(390,330)" name="NOT Gate"/>
     <comp lib="5" loc="(810,170)" name="LED">
       <a name="color" val="#0f6300"/>
       <a name="offcolor" val="#000000"/>
