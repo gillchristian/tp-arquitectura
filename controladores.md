@@ -32,7 +32,8 @@ Se encarga de manejar las luces del semáforo para peatones.
 Se encarga de manejar los dígitos del contador de tiempo de verde del semáforo de peatones
 
 - Entradas
-  - ...
+  - Clock
+  - Ctrl Auto
 - Salidas
   - 1-14 (pins de los dígitos)
 
